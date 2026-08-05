@@ -69,21 +69,23 @@ The `trained_models` directory contains the pretrained GeoFormer models used in 
 
 ## Requirements
 
-The notebooks were developed using Python with the following main libraries:
+The notebooks were developed using **Python 3.10+** and the following libraries:
 
-- Python 3.10+
-- TensorFlow
+- PyTorch
 - NumPy
 - Pandas
-- Scikit-learn
 - Matplotlib
+- Scikit-learn
 - OpenPyXL
+- Google Colab (optional, for running the notebooks in Colab)
 
 Install the required packages with:
 
 ```bash
-pip install tensorflow pandas numpy scikit-learn matplotlib openpyxl
+pip install torch numpy pandas matplotlib scikit-learn openpyxl
 ```
+
+If you plan to run the notebooks locally, you can ignore the `google.colab` import or remove it. When using Google Colab, all required packages are already available except any additional packages you may install manually.
 
 ## Citation
 
